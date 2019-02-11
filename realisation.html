@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+	<link rel="stylesheet" href="style.css" />
+	
+		
+        <title>Mes réalisations</title>
+    </head>
+
+    <body>
+		<header>
+			<h1>Yorick Le Moing</h1>
+			<nav>
+				<ul id="menu">
+					<li><a href='index.html'>Accueil</a></li>
+					<li><a href='pro.html'>Expérience professionnel</a></li>
+					<li><a href='formation.html'>Formations</a>
+							<ul>
+								<li><a href='formation.html#informatique'>DUT Informatique</a></li>
+								<li><a href='formation.html#geii'>DUT GEII (Génie Electrique et Informatique Industriel)</a></li>
+								<li><a href='formation.html#bac'>BACCALAUREAT STI2D</a></li>
+							</ul>
+					</li>
+					<li id='position'><a href='realisation.html'>Réalisations</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<section>
+			<h2 id="file"><a href='index.html'>Accueil</a> > Réalisations</h2>
+			<article id="realisation">
+				<h2>Mes réalisations</h2>
+				<div id='blocus'>
+				<h3>Jeu de type "Blocus"</h3>
+				<p>J'ai réalisé ce jeu dans le cadre d'un projet pour le DUT Informatique</p>
+				<h3>Règle du jeu</h3>
+				<p>Le terrain de jeu prend la forme d'une grille carrée dont la taille sera choisie à chaque partie entre 3 et 9.
+					L'un après l'autre les deux joueurs choisissent une case où placer leur pion (les deux pions ne peuvent pas partager la même case).
+					Une fois le terrain mis en place, les joueurs alternent les tours. Durant le tour d'un joueur, il doit déplacer son pion vers une case adjacente (y compris en diagonale), puis choisir une case libre qui sera condamnée.
+					Le premier joueur qui ne peut pas déplacer son pion (car toutes les cases adjacentes sont condamnées ou occupées) a perdu.</p>
+					<marquee align="center" height="300" scrolldelay="5" scrollamount="5" onmouseout="this.start()" onmouseover="this.stop()">
+					<p><img border="0" src="gallerie/img2.png" title='Choix des paramètre de jeux'alt="" hspace="0">
+					<img border="0" src="gallerie/img3.png" title='Début de partie'alt="" hspace="0">
+					<img border="0" src="gallerie/img4.png" title='Partie en cours'alt="" hspace="0">
+					<img border="0" src="gallerie/img5.png" title='Partie en cours: Le joueur est bloqué'alt="" hspace="0">
+					<img border="0" src="gallerie/img6.png" title='Fin de partie'alt="" hspace="0">
+					</p></marquee>
+					<a href='telechargement/blocus.tar.gz'>Télécharger les fichier source</a>
+					</div>
+					<h3>Site internet</h3>
+					<p>Ce site internet fait aussi partie d'un projet pour le DUT informatique</p>
+					<a href='...'>Télécharger les fichier source</a>
+			</article>
+			<aside>
+				<div id='cv'>
+					<a href='page_cv.html'>Mon CV</a>
+					<p>(imprimable)</p>
+				</div>
+				<div id='contact'>
+					<h3>Contact</h3>
+					<ul>
+						<li><p><strong>Tel</strong>: 06 42 76 32 01</p></li>
+						<li><a href='mailto:yorick.lemoing@hotmail.fr'>yorick.lemoing@hotmail.fr</a></li>
+						<li><a href='formulaire.html'>M'envoyer un message</a></li>
+					</ul>
+				</div>
+			</aside>
+		</section>
+		<footer>
+			<p>copyrignt &copy; 2017 Y. Le Moing</p>
+			<a href="#" class="top">Haut de page</a>
+		</footer>
+    </body>
+</html>
